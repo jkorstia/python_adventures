@@ -1,27 +1,30 @@
+Since I will probably be running the program multiple times and we need practice, lets set up arguments
+-i, --input, the input file (which is the output file from the "n-way" tool)
+-o, --output, the name of the output file to be created
+
 1) read in the raw output file
 2) create a blank summary report file
 3) generate summary statistics for loci
-	concatenate all species genotypes together (Columns 4-13) to create a locus genotype
-	count the frequency of each unique locus genotype
-4) write loci summary statistics to the summary file
+	full list of desired stats below in the sample of the summary output
+4) write loci summary statistics to the summary file in a format similar to this example below
 ------------------------------------------------------------------------------------------
 summary report of <raw output file name here>
 generated <todays date and time>
 
-------------------------------------------------------------------------------------------
-
 	X loci examined
 	X species examined: (this is equal to the number of columns in the dataset minus 3, divided by two)
-		list species 
-	monomorphic for all species = + for all species
-	unique to reference species = + for only one species
-	of the remaining loci,
+		list of species 
+	monomorphic for all species = (+ for all species)
+	unique to reference species = (+ for only one species)
+	of the remaining loci, (the ones that are NOT monomorphic or unique to the reference species)
 	X loci are missing data from one species (the number of genotypes that contain only one N)
 	X loci are missing data from two species (the number of genotypes that contain two Ns)
 	X loci are missing data from three species (the number of genotypes that contain three Ns)
 	X loci are missing data from four species (the number of genotypes that contain four Ns)
 	X loci are missing data from five or more species (the number of genotypes that contain five or more Ns)
-4) generate summary statistics for each species
+-------------------------------------------------------------------------------------------
+
+4) write a loop or function that will generate summary statistics for each species
 	each species' data is listed in its own column (Columns 4-13 in the raw output file)
 		a = count the number of +'s in each column
 		b = count the number of -'s in each column
@@ -39,4 +42,3 @@ species name
 ------------------------------------------------------------------------------------------
 
 
-### eventually it would be nice to write this thing in such a way that it can find the 
