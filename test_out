@@ -1,0 +1,56 @@
+Summary Report
+Input file: /lustre/scratch/jkorstia/butterfly_nway/test_2
+Report generated 2019-03-04 15:04
+------------------------------------------------------------------------------
+Reference Genome: Heliconius_melpomene
+
+10 species examined
+Heliconius_melpomene
+Heliconius_besckei
+Heliconius_burneyi
+Heliconius_cydno
+Heliconius_hecale
+Heliconius_elevatus
+Heliconius_numata
+Heliconius_pardalinus
+Heliconius_timareta
+Laparus_doris
+
+------------------------------------------------------------------------------
+Genotype Summary by Locus
+
+99 loci examined
+
+20 loci are monomorphic and found in all species
+2 loci are unique to the reference species
+77 loci are potentially phylogenetically informative
+
+Of the remaining informative loci:
+21 loci are missing data from 1 species
+18 loci are missing data from 2 species
+13 loci are missing data from 3 species
+11 loci are missing data from 4 species
+7 loci are missing data from 5 species
+3 loci are missing data from 6 species
+2 loci are missing data from 7 species
+2 loci are missing data from 8 species
+
+------------------------------------------------------------------------------
+Summary by Species
++ = reference TE insertion found
+- = reference TE insertion NOT found
+N = presence/absence of reference TE insertion could not be determined
+% = percentage of genotypes successfully determined
+
+                        +  -   N    %
+Heliconius_melpomene   99  0   0  100
+Heliconius_besckei     76  1  22   77
+Heliconius_burneyi     60  2  37   62
+Heliconius_cydno       80  1  18   81
+Heliconius_hecale      52  1  46   53
+Heliconius_elevatus    77  1  21   78
+Heliconius_numata      84  1  14   85
+Heliconius_pardalinus  80  1  18   81
+Heliconius_timareta    76  1  22   77
+Laparus_doris          55  1  43   56
+------------------------------------------------------------------------------

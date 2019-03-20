@@ -1,0 +1,58 @@
+Summary Report
+Input file: /lustre/scratch/jkorstia/butterfly_nway/test_2
+Report generated 2019-03-06 11:19
+------------------------------------------------------------------------------
+Reference Genome: Heliconius_melpomene
+
+10 species examined:
+Heliconius_melpomene
+Heliconius_besckei
+Heliconius_burneyi
+Heliconius_cydno
+Heliconius_hecale
+Heliconius_elevatus
+Heliconius_numata
+Heliconius_pardalinus
+Heliconius_timareta
+Laparus_doris
+
+------------------------------------------------------------------------------
+Genotype Summary by Locus
+
+200869 loci examined
+
+26124 loci are monomorphic and found in all species
+4325 loci are unique to the reference species
+170420 loci are potentially phylogenetically informative
+
+Of the remaining informative loci:
+612 loci are missing data from 0 species
+45041 loci are missing data from 1 species
+43541 loci are missing data from 2 species
+35948 loci are missing data from 3 species
+20578 loci are missing data from 4 species
+10738 loci are missing data from 5 species
+6430 loci are missing data from 6 species
+4385 loci are missing data from 7 species
+3147 loci are missing data from 8 species
+
+------------------------------------------------------------------------------
+Summary by Species
++ = reference TE insertion found
+- = reference TE insertion NOT found
+N = presence/absence of reference TE insertion could not be determined
+% = percentage of genotypes successfully determined
+
+                            +     -      N    %
+Heliconius_melpomene   200869     0      0  100
+Heliconius_besckei     160977   584  39308   80
+Heliconius_burneyi     113269  1444  86156   57
+Heliconius_cydno       174154   412  26303   86
+Heliconius_hecale      100549  1681  98639   50
+Heliconius_elevatus    165771   464  34634   82
+Heliconius_numata      166033   504  34332   82
+Heliconius_pardalinus  166839   437  33593   83
+Heliconius_timareta    137186   314  63369   68
+Laparus_doris          106550  1447  92872   53
+------------------------------------------------------------------------------
+Program finished at 2019-03-06 11:19
